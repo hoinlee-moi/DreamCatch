@@ -36,7 +36,7 @@ const galleryImages = [
   },
   {
     id: 7,
-    src: "/frame/frame7v2.png",
+    src: "/frame/frame7.png",
     title: "황금빛 초원",
   },
   {
