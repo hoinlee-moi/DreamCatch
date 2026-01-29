@@ -6,17 +6,17 @@ import "./globals.css";
 // 메인 타이틀용 - 예술적인 느낌
 const songMyung = Song_Myung({
   variable: "--font-song-myung",
-  subsets: ["latin"],
   weight: ["400"],
   display: "swap",
+  preload: false,
 });
 
 // 버튼 및 본문용 - 가독성과 부드러움
 const gowunDodum = Gowun_Dodum({
   variable: "--font-gowun-dodum",
-  subsets: ["latin"],
   weight: ["400"],
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
